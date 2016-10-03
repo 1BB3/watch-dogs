@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=watch-dogs
+Description=This theme is a fork for ubuntu 16.04 plymouth from the android version. Forked by Gabs. 
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/watch-dogs/bootanimation
+ScriptFile=/usr/share/plymouth/themes/watch-dogs/watch-dogs.script
