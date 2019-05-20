@@ -7,6 +7,15 @@ Boot animation adapted from the android version. *Tested for ubuntu*.
 
 ##### For Ubuntu 16.04 and above
 
+```
+cd /usr/share/plymouth/themes
+sudo git clone https://github.com/1BB3/watch-dogs.git
+cd watch-dogs/
+sudo bash install-ab-16.sh
+```
+
+OR
+
 1 Copy the whole folder to /usr/share/plymouth/themes. (***remember the root permission is needed***).
 2 Then locate and run the bash script in the folder ; named "install-ab-16.sh".
 
@@ -24,6 +33,15 @@ or
 ---
 
 ##### For Ubuntu 15.10 and below
+
+```
+cd /lib/plymouth/themes
+sudo git clone https://github.com/1BB3/watch-dogs.git
+cd watch-dogs/
+sudo bash install-bel-16.sh
+```
+
+OR
 
 1 Copy the whole folder to /lib/plymouth/themes. (***remember the root permission is needed***).
 2 Then locate and run the bash script in the folder ; named "install-bel-16.sh".
